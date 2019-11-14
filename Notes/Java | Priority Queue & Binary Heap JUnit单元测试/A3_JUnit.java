@@ -398,6 +398,8 @@ class A3_JUnit {
 		this.test_build(list);
 	}
 	
+	// Helper Methods -----------------
+	// Tests insert method
 	public void arr_inserter(int[] list) {
 		int counter = 0;
 		for (int i = 0; i < list.length; i++) {
@@ -418,6 +420,7 @@ class A3_JUnit {
 		assertEquals(counter, this.normal_heap.size());
 	}
 	
+	// Converts a int[] array to a EntryPair[] array
 	public EntryPair[] arr_converter(int[] list) {
 		EntryPair[] out = new EntryPair[list.length];
 		int counter = 0;
@@ -443,12 +446,14 @@ class A3_JUnit {
 		return out_arr;
 	}
 	
+	// Test build method
 	public void test_build(EntryPair[] list) {
 		this.normal_heap.build(list);
 		assertEquals(list.length, this.normal_heap.size());
 		this.test_order();
 	}
 	
+	// Test the order of Priority Queue
 	public void test_order() {
 		int temp = this.normal_heap.getMin().getPriority();
 		this.normal_heap.delMin();
@@ -459,7 +464,8 @@ class A3_JUnit {
 		}
 		
 	}
-
+	
+	// Creates a sorted array - Priority in increasing order
 	public  EntryPair[] create_sorted_arr() {
 		EntryPair[] out = new EntryPair[this.get_arr_size()];
 		
@@ -470,6 +476,7 @@ class A3_JUnit {
 		return out;
 	}
 	
+	// Creates a sorted array - Priority in decreasing order
 	public EntryPair[] create_reverse_arr() {
 		EntryPair[] out = new EntryPair[this.get_arr_size()];
 		
@@ -481,6 +488,7 @@ class A3_JUnit {
 		
 	}
 	
+	// Creates a random priority array of length size
 	public EntryPair[] create_arr(int size) {
 		Random rn = new Random();
 		int counter = 0;
@@ -513,6 +521,7 @@ class A3_JUnit {
 		return out;
 	}
 	
+	// Create a random priority array of default length
 	public EntryPair[] create_arr() {
 		return this.create_arr(this.get_arr_size());
 	}
