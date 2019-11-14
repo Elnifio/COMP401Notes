@@ -33,6 +33,7 @@ class A3_JUnit {
 										// Assume that all negative indices are allowed
 										// You should change this JUnit test according to specific requirement
 	
+	// Randomly choose between 1000 and 1001
 	private int get_arr_size() {
 		Random rn = new Random();
 		int out = (rn.nextInt() % 2 == 0)?(1):(0);
