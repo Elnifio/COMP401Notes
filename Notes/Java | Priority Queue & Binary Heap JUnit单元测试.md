@@ -17,7 +17,7 @@ getHeap() -> EntryPair[];
 // --------
 EntryPair: String s, int priority
 ```
-（好像没有 Axioms？）
+（好像没有什么必要写 Axioms？）
 - 注意事项
 	- **单元测试全部通过并不代表程序完全成功运行，请务必自己排除其他疏漏内容**
 	- **请务必根据要求自行更改单元测试内的对应内容**
