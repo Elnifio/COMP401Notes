@@ -1,5 +1,5 @@
-# EX00 | Performance重要公式 & 题型 - Performance & Amdahl’s Law
-[[Index | COMP411]]
+# Performance重要公式 - Performance & Amdahl’s Law
+
 ## 重要公式
 1. Performance = 1 / Execution time <- 一个电脑的performance是其**执行一个程序需要的时间的倒数**
 	1. 派生公式：Performance(x) / Performance(y) = Execution(y) / Execution(x)
@@ -48,9 +48,10 @@
 	- 上一题中Time(Improved) = 100 * 20% = 20s，但是通过计算得到Time(Unaffected) = 20s，所以**无法优化**。
 
 #### 多核问题 - 假设多个CPU同时跑同一个程序，求运行时间。
-![](Performance%E9%87%8D%E8%A6%81%E5%85%AC%E5%BC%8F%20-%20Performance%20&%20Amdahl%E2%80%99s%20Law/02F6E647-305E-43E8-9669-9DC8B96F5A12.png)
+(这里应该有一张图，但是我实在是懒得放上来了，所以就不放了XD)
+(题目实在是阅读量有点长，所以我把关键内容整合到下面了)
 信息整合：
-1. Instructions数量：
+1. Instructions 数量：
 	1. Arithmetic 3.74E9 
 	2. Load/Store 2.20E9 
 	3. Branch 420E6
