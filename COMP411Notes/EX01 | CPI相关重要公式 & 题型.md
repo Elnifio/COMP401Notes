@@ -80,7 +80,6 @@
 ![](EX01%20%7C%20CPI%E7%9B%B8%E5%85%B3%E9%87%8D%E8%A6%81%E5%85%AC%E5%BC%8F%20&%20%E9%A2%98%E5%9E%8B/bear_sketch@2x%209.png)
 
 #### 给定Rate & # Instructions & Time，计算 CPI
-![](EX01%20%7C%20CPI%E7%9B%B8%E5%85%B3%E9%87%8D%E8%A6%81%E5%85%AC%E5%BC%8F%20&%20%E9%A2%98%E5%9E%8B/785B9CDE-F367-40AD-929E-1B588E9BC177.png)
 > Compilers can have a profound impact on the performance of an application. Assume that for a program, compiler A results in an **instruction count of 2.0E9** and has an execution time of **3.0 seconds**, while compiler B results in an **instruction count of 4.0E9** and an execution time of **2.0 seconds**. Find the average CPI for each program given that the processor has a **clock cycle time of 0.5 nano-seconds (i.e., the clock rate is 2 GHz)**  
 
 计算方法：公式2 -> 派生公式1 -> 移项: `CPI = #Cycle/#Instructions = (Rate * Time) / # Instructions`
