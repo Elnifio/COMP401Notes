@@ -1,6 +1,5 @@
 # EX04 | Instruction Sets重要概念 & 题型
 
-- - - -
 ## 重要概念
 0. 关于MIPS Instruction Sets 的基本概念：
 	1. 冯诺伊曼计算机的结构：CPU（Data Path + Control Unit）+ Memory
