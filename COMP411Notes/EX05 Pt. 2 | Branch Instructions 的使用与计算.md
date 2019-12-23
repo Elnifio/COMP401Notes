@@ -10,8 +10,8 @@ OPCODE：`0x4`
 命令格式：`OP(6) + $rs(5) + $rt(5) + 16-bit constant(16)` (I-type)
 
 命令实际作用：根据条件判断计算新的 Program Counter。
-	- 如果 `$rs == $rt`：`PC(new) = PC(old) + 4 + 4 * OFFSET(Sign Extend)`
-	- 如果 `$rs != $rt`：`PC(new) = PC(old) + 4`
+- 如果 `$rs == $rt`：`PC(new) = PC(old) + 4 + 4 * OFFSET(Sign Extend)`
+- 如果 `$rs != $rt`：`PC(new) = PC(old) + 4`
 
 通过带入上面的公式，我们可以计算得到新的 Program Counter 的值。
 -  例子：`beq $8, $9, 0x0001` with `PC = 0x00003021`
