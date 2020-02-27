@@ -47,11 +47,18 @@ getRoot() -> BST_Node;
 
 ```Java
 addNode(long idnum, String label) 
-    -> False if: 1. idnum not unique; 2. idnum < 0; 3. label not unique; 4. label is null. 
+    -> False if: 
+    	1. idnum not unique; 
+	2. idnum < 0; 
+	3. label not unique; 
+	4. label is null. 
     -> True otherwise;
 
 addEdge(long idNum, String source_label, String destination_label, long weight, String edge_label) 
-    -> False if: 1. idnum not unique or less than 0; 2. source or destination label does not exist; 3. there already have an edge on these two nodes;
+    -> False if: 
+    	1. idnum not unique or less than 0; 
+	2. source or destination label does not exist; 
+	3. there already have an edge on these two nodes;
     -> True otherwise;
 
 delNode(String label)
@@ -59,9 +66,14 @@ delNode(String label)
     -> True otherwise;
 
 delEdge(String sLabel, String dLabel)
-    -> False if: 1. Start label does not exist; 2. Destination label does not exist; 3. Edge from the start to destination label does not exist;
+    -> False if: 
+    	1. Start label does not exist; 
+	2. Destination label does not exist; 
+	3. Edge from the start to destination label does not exist;
     -> True otherwise;
+    
 numNodes() -> Integer;
+
 numEdges() -> Integer;
 ```
 
