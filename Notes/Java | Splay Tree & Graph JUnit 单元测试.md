@@ -1,9 +1,9 @@
 # Java | Splay Tree & Directed Graph JUnit单元测试
 > 单元测试是什么，单元测试是谁？单元测试是什么意思出自哪里？ 今天小编就来帮助大家了解一下单元测试到底是什么。  
 
-Splay Tree 的单元测试在[这里](https://github.com/Elnifio/COMP401Notes/blob/master/Notes/Java%20%7C%20Priority%20Queue%20%26%20Binary%20Heap%20JUnit%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/A3_JUnit.java)。
+Splay Tree 的单元测试在[这里](https://github.com/Elnifio/COMP401Notes/blob/master/Notes/Java%20%7C%20Splay%20Tree%20%26%20Directed%20Graph%20JUnit%20%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/JUnit_SPLT.java)。
 
-Directed Graph 的单元测试在[这里]()。
+Directed Graph 的单元测试在[这里](https://github.com/Elnifio/COMP401Notes/blob/master/Notes/Java%20%7C%20Splay%20Tree%20%26%20Directed%20Graph%20JUnit%20%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/Graph_JUnit.java)。
 
 - - - -
 
